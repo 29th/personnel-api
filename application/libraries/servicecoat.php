@@ -20,8 +20,8 @@ class ServiceCoat {
 			's:rifle:dh','s:bar:dh','s:zook:dh','s:mg:dh','s:armor:dh','s:smg:dh','s:sniper:dh','s:mortar:dh',
 			'e:rifle:dh','e:bar:dh','e:zook:dh','e:mg:dh','e:armor:dh','e:smg:dh','e:sniper:dh','e:mortar:dh'
 			);
-		private $scAllARibbons = array('french','ww1v','aocc','eamc','acamp','adef','gcon','aach','arcom','pheart','bstar','sm','lom','sstar','dsm','dsc','ww2v','dms');
-		private $scAllURibbons = array('dh','dod','trenches','battlegrounds','muc');
+		private $scAllARibbons = array('french','ww1v','aocc','eamc','acamp','adef','gcon','aach','arcom','pheart','bstar','sm','lom','sstar','dsm','dsc','ww2v','dms','anpdr','movsm','arcam');
+		private $scAllURibbons = array('dh','dod','trenches','battlegrounds','muc','rs','arma');
 		private $scAllTRBadges = array('eib','cib','cib1','cib2','cib3','cib4','cab','cab1','cab2','cab3','cab4');
 		private $scAllTLBadges = array('rd');
 		private $scAllBLBadges = array('drillsergeant');
@@ -658,6 +658,18 @@ class ServiceCoat {
 				'dms' => array(
 					'num' => 0,
 					'img' => imagecreatefrompng($root . '../coat-resources/Ribbons/Defense Meritorious Service Medal Ribbon.png')
+					)
+				'anpdr' => array(
+					'num' => 0,
+					'img' => imagecreatefrompng($root . '../jacketimages/Ribbons/Army NCO Professional Development Ribbon.png')
+					),
+				'movsm' => array(
+					'num' => 0,
+					'img' => imagecreatefrompng($root . '../jacketimages/Ribbons/Military Outstanding Volunteer Service Medal.png')
+					),
+				'arcam' => array(
+					'num' => 0,
+					'img' => imagecreatefrompng($root . '../jacketimages/Ribbons/Army Reserve Components Achievement Medal.png')
 					)
 				);
 			//Initiates the RibArray
