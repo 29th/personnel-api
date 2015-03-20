@@ -6,6 +6,7 @@ class Attendance extends MY_Controller {
         'view_any' => 'event_view_any',
         'view' => 'event_view'
     );
+    public $paginate = false;
     
     /**
      * PRE-FLIGHT
