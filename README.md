@@ -1,4 +1,7 @@
-# Personnel API
+# Personnel v2 API
+
+> [!WARNING] 
+> This repository housed the back-end for personnel v2. Its source control has been migrated to the [personnel-v2 repo](https://github.com/29th/personnel-v2)
 
 ## Installation Instructions
 
